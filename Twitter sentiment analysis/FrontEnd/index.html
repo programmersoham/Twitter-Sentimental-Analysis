@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Sentiment Analyzer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <span class="header-left"> What's Up With Twitter Today </span>
+      <span><a class="header-right" href="">Sign in</a></span>
+    </header>
+
+    <h1 class="head">Enter your #tag</h1>
+    <textarea id="txt-input" placeholder="Enter your topic here "></textarea>
+    <button type="button" id="btn-translate">Analyse</button>
+    <div class="head">Analysis will come below 👇</div>
+    <div id="txt-output"></div>
+    <div style="text-align: left ; margin-left:160px; font-weight: bolder; font-size: larger;">
+      Possible outcomes after analysis are :
+      <ul>
+        <li>Postive</li>
+        <li>Neutral</li>
+        <li>Negative</li>
+      </ul>
+    </div>
+    <footer class="footer">Made with love by @Soham117(github)</footer>
+
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
